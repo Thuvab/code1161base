@@ -150,7 +150,11 @@ def loops_4():
       ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
     ]
     """
-    pass
+    number_square = []
+    for i in range(10):
+        number_square.append(range(10))
+
+    return number_square
 
 
 def loops_5():
@@ -175,7 +179,14 @@ def loops_5():
         "There are {} green bottles".format(8)
     you'll come to see the pros and cons of each over time.
     """
-    pass
+    number_square = []
+    for i in range(10):
+        coordinates_row = []
+        for j in range(5):
+            coordinates_row.append("(i{}, j{})".format(i, j))
+        number_square.append(coordinates_row)
+
+    return number_square
 
 
 def loops_6():
